@@ -1,0 +1,6 @@
+﻿scenario,coarse_resolution,n_points,mismatch_points,path_disagreement_rate,direct_cell_count,rollup_cell_count,mass_error_direct,mass_error_rollup,top10_jaccard,top1_direct,top1_rollup,top1_same,top1_relocation_km,density_top1_direct,density_top1_rollup,count_vs_density_top1_same_direct,count_vs_density_top1_same_rollup
+ordinary,7,10000,561,0.0561,106,107,0,0,1.0,874b3554affffff,874b3554affffff,True,0.0,874b3554affffff,874b3554affffff,True,True
+ordinary,5,10000,892,0.0892,9,9,0,0,1.0,854b3557fffffff,854b3557fffffff,True,0.0,854b3557fffffff,854b3557fffffff,True,True
+boundary_stress,7,22326,1252,0.05607811520200663,7,7,0,0,1.0,874b3554affffff,874b3554affffff,True,0.0,874b3554affffff,874b3554affffff,True,True
+boundary_stress,5,22326,1884,0.08438591776404192,1,2,0,0,0.5,854b3557fffffff,854b3557fffffff,True,0.0,854b3557fffffff,854b3557fffffff,True,True
+adversarial_rank_flip,7,2200,200,0.09090909090909091,2,2,0,0,1.0,874b3554affffff,874b3554bffffff,False,2.3027884751656895,874b3554affffff,874b3554bffffff,True,True
